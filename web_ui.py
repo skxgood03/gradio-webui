@@ -12,7 +12,7 @@ with gr.Blocks() as demo:
                 button3 = gr.Button("3")
                 button4 = gr.Button("4")
             with gr.Column(scale=6):
-                button_big = gr.Button("button", variant='primary')
+                button_big = gr.Button("提交", variant='primary')
                 with gr.Row():
                     xlk1 = gr.Dropdown(["1", "2", "3"], label="xlk1")
                     xlk2 = gr.Dropdown(["1", "2", "3"], label="xlk2")
